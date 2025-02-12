@@ -26,7 +26,7 @@ label{text-shadow: 9px;text-decoration: none;white-space: nowrap;padding: 20px;d
 .color2{display:flex;flex-direction:row;gap:6px;padding:10px;margin:auto;border-radius:10px 10px;cursor:grab;width:800px;background-color:darkblue;border:4px solid white;box-shadow:8px 8px 8px black;}
 .color3{display:flex;flex-direction:row;gap:6px;padding:10px;margin:auto;border-radius:10px 10px;cursor:grab;width:800px;background-color:darkorange;border:4px solid white;box-shadow:8px 8px 8px black;}
 .color4{display:flex;flex-direction:row;gap:6px;padding:10px;margin:auto;border-radius:10px 10px;cursor:grab;width:800px;background-color:darkorchid;border:4px solid white;box-shadow:8px 8px 8px black;}
-input{text-shadow: 9px;text-align: left;width: 300px;margin: auto;border-radius: 10px 10px;padding: 4px;display: flex;flex-direction: column;color: black;background-color: aqua;border: 4px solid blue;box-shadow: 3px 3px 3px black;cursor: default;font-size: 16px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: oblique;}
+input{text-shadow: 9px;text-align: left;width: 300px;margin: auto;border-radius: 10px 10px;padding: 4px;display: flex;flex-direction: column;color: black;background-color: whitesmoke;border: 4px solid blue;box-shadow: 3px 3px 3px black;cursor: default;font-size: 16px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: oblique;}
 select{cursor: col-resize;width: 200px;margin: auto;border-radius: 10px 10px;padding: 5px;font-size: 18px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;background-color: black;color: white;border: 4px solid white;box-shadow: 5px 5px 5px yellow;}
 textarea{cursor: text;width: 300px;height: 200px;margin: auto;border-radius: 10px 10px;padding: 13px;background-color: antiquewhite;color: black;border: 4px solid black;text-shadow: 9px;font-size: 16px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: oblique;}
 button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;padding: 5px;font-size: 18px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;background-color: blue;color: white;border: 4px solid white;box-shadow: 6px 6px 6px black;}
@@ -59,15 +59,15 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
 <form action="form1.php" method="post">
 <fieldset>
 <label for="Nome">Nome</label>
-<input type="text" id="Nome" name="nome" title="Digite o seu Nome" plaholder="Exemplo: Guilherme Barbosa da Silva;" max="30" maxlength="30" required>
+<input type="text" id="Nome" name="nome" title="Digite o seu Nome" placeholder="Exemplo: Guilherme Barbosa da Silva;" max="30" maxlength="30" required>
 <label for="Idade">Idade</label>
-<input type="number" id="Idade" name="idade" title="Digite a sua Idade" plaholder="Exemplo: 23 ou 35 anos ??;" max="30" maxlength="30" required>
+<input type="number" id="Idade" name="idade" title="Digite a sua Idade" placeholder="Exemplo: 23 ou 35 anos ??;" max="30" maxlength="30" required>
 <label for="Data de Nascimento">Data de Nascimento</label>
-<input type="date" id="Data de Nascimento" name="data_nasc" title="Digite a sua Data de Nascimento" plaholder="Exemplo: 22/05/2001;" max="30" maxlength="30" required>
+<input type="date" id="Data de Nascimento" name="data_nasc" title="Digite a sua Data de Nascimento" placeholder="Exemplo: 22/05/2001;" max="30" maxlength="30" required>
 <label for="Cpf">Cpf</label>
-<input type="text" id="Cpf" name="cpf" title="Digite o seu Cpf" plaholder="Exemplo: 503.552.748-41;" max="30" maxlength="30" required>
+<input type="text" id="Cpf" name="cpf" title="Digite o seu Cpf" placeholder="Exemplo: 503.552.748-41;" max="30" maxlength="30" required>
 <label for="RG">RG</label>
-<input type="text" id="RG" name="rg" title="Digite o seu RG" plaholder="Exemplo: 53.742.867-7;" max="30" maxlength="30" required>
+<input type="text" id="RG" name="rg" title="Digite o seu RG" placeholder="Exemplo: 53.742.867-7;" max="30" maxlength="30" required>
 <label for="Sua Altura">Sua Altura</label>
 <select name="altura" id="Sua Altura" required style="width:160px;font-size:14px;padding:3px;background-color:blue;color:white;border:3px solid white;box-shadow:5px 5px 5px black;">
 <option value="" selected disabled>Selecione</option>
@@ -80,13 +80,13 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
 </select>
 <br>
 <label for="Cep">Cep</label>
-<input type="text" id="Cep" name="cep" title="Digite o seu Cep" plaholder="Exemplo: 03936-000;" max="30" maxlength="30" required>
+<input type="text" id="Cep" name="cep" title="Digite o seu Cep" placeholder="Exemplo: 03936-000;" max="30" maxlength="30" required>
 <label for="Endereço">Endereço</label>
-<input type="text" id="Endereço" name="endereco" title="Digite o seu Endereço" plaholder="Exemplo: Av rio das pedras Nª4100;" max="30" maxlength="30" required>
+<input type="text" id="Endereço" name="endereco" title="Digite o seu Endereço" placeholder="Exemplo: Av rio das pedras Nª4100;" max="30" maxlength="30" required>
 <label for="Email">Email</label>
-<input type="email" id="Email" name="email" title="Digite o seu Email" plaholder="Exemplo: ;" max="30" maxlength="30" required>
+<input type="email" id="Email" name="email" title="Digite o seu Email" placeholder="Exemplo: Guilherme8876sk@gmail.com;" max="30" maxlength="30" required>
 <label for="Telefone">Telefone</label>
-<input type="tel" id="Telefone" name="telefone" title="Digite o seu Telefone" plaholder="Exemplo: (11)98341-7590;" max="30" maxlength="30" required>
+<input type="tel" id="Telefone" name="telefone" title="Digite o seu Telefone" placeholder="Exemplo: (11)98341-7590;" max="30" maxlength="30" required>
 <label for="Estado civil">Estado civil</label>
 <select name="estado_civil" id="Estado civil" required style="width:130px;padding:3px;font-size:14px;background-color:white;color:black;border:4px solid white;box-shadow:5px 5px 5px black;">
 <option value="" selected disabled>Selecione</option>
@@ -99,9 +99,9 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
 </select>
 <br>
 <label for="Sua Cor">Sua Cor</label>
-<input type="color" id="Sua Cor" name="cor" title="Digite o sua Cor" plaholder="Exemplo: branco ou negro ??;" max="30" maxlength="30" required>
+<input type="color" id="Sua Cor" name="cor" title="Digite o sua Cor" placeholder="Exemplo: branco ou negro ??;" max="30" maxlength="30" required>
 <label for="Nível">Nível</label>
-<input type="range" id="Nível" name="nivel" title="Digite o seu Nível" plaholder="Exemplo: +/-;" max="30" maxlength="30" required>
+<input type="range" id="Nível" name="nivel" title="Digite o seu Nível" placeholder="Exemplo: +/-;" max="30" maxlength="30" required>
 <label for="Sexo">Sexo</label>
 <select name="genero" id="Sexo" required style="width:130px;padding:4px;font-size:14px;background-color:black;color:white;border:4px solid white;box-shadow:4px 4px 4px black;">
 <option value="" selected disabled>Selecione</option>
@@ -114,7 +114,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
 </select>
 <br>
 <label for="Data e Hora">Data e Hora</label>
-<input type="datetime-local" id="Data e Hora" name="data_hora" title="Digite a sua Data e Hora" plaholder="Exemplo: 22/05 ás 10 AM;" max="30" maxlength="30" required>
+<input type="datetime-local" id="Data e Hora" name="data_hora" title="Digite a sua Data e Hora" placeholder="Exemplo: 22/05 ás 10 AM;" max="30" maxlength="30" required>
 <br>
 <br>
 <h2><big>Qual o seu nível de conhecimento?</big></h2>
@@ -243,14 +243,14 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
 <br>
 <br>
 <div class="nav">
-<nav style="background-color:dark;">
+<nav style="background-color:darkred;">
 <p style="color:white;">Retorne para minha <a href="index.php" target="_blank" rel="noopener" style="text-shadow:9px;text-decoration:none;border-radius:10px 10px;font-size:14px;background-color:white;color:red;border:3px solid black;box-shadow:4px 4px 4px black;cursor:grabbing;">1ªPágina</a></p>
 </nav>
 </div>
 <br>
 <div class="footer">
-<footer style="background-color:dark;">
-<p style="color:white;">@GuilhermeBarbosaDaSilva, todos os direitos autorais reserbador.</p>
+<footer style="background-color:darkblue;">
+<p style="color:white;">@GuilhermeBarbosaDaSilva, todos os direitos autorais reservado.</p>
 </footer>
 </div>
 </form>
