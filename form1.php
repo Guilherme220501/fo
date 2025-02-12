@@ -280,14 +280,14 @@ document.write('Acima');
 document.write('feito com cuidado');
 document.write('Thanks');
 document.write('Very much');
-document.getElementById('script').innerHTML='';
-document.getElementById('lest').innerHTML='';
-document.getElementById('windows').innerHTML='';
-document.getElementById('most').innerHTML='';
-document.getElementById('very').innerHTML='';
-document.getElementById('night').innerHTML='';
-document.getElementById('sample').innerHTML='';
-document.getElementById('kick').innerHTML='';
+document.getElementById('script').innerHTML='Ola';
+document.getElementById('lest').innerHTML='Seja bem vindo';
+document.getElementById('windows').innerHTML='ao meu';
+document.getElementById('most').innerHTML='Formulario';
+document.getElementById('very').innerHTML='Segue';
+document.getElementById('night').innerHTML='O';
+document.getElementById('sample').innerHTML='logo';
+document.getElementById('kick').innerHTML='abaixo';
 function name()
 {
     console.log('Ola');
@@ -350,7 +350,7 @@ $classe_social=$_POST['classe_social']??null;
 $signo=$_POST['signo']??null;
 $experience_text=$_POST['experience_text']??null;
 $sql = "INSERT INTO minhatabelameunomegui (nome, idade, data_nasc, cpf, rg, altura, cep, endereco, email, telefone, estado_civil, cor, nivel, genero, data_hora, conhecimento, experiencia, nivel_social, classe_social, signo, experience_text)
-VALUES ('$nome','$idade','$data_nasc','$cpf','$rg','$altura','$cep','$endereco','$email','$telefone','$estado_civil','$cor','$nivel','$genero','$data_hora','$conhecimento','$experiencia','$nivel_social,'$classe_social','$signo','$experience_text')";
+VALUES ('$nome','$idade','$data_nasc','$cpf','$rg','$altura','$cep','$endereco','$email','$telefone','$estado_civil','$cor','$nivel','$genero','$data_hora','$conhecimento','$experiencia','$nivel_social','$classe_social','$signo','$experience_text')";
 if ($conn->query($sql) === TRUE) {
     echo "";
 } else {
