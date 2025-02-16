@@ -54,6 +54,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     </header>
     <br>
     <main>
+    <form action="form3.php" method="post">
     <fieldset>
     <label for="Nome">Nome</label>
     <input type="text" name="nome" id="Nome" title="Digite o seu Nome" placeholder="Exemplo: Guilherme Barbosa Da Silva;" max="30" maxlength="30" required>
@@ -251,7 +252,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     </footer>
     </div>
     </main>
-    
+    </form>
 </details></div>
     <script>
     function name()
