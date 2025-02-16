@@ -200,7 +200,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <input type="radio" value="Classe E" name="classe_social" required>
     <label for="Classe F" style="font-size:14px;text-decoration:none;text-shadow:9px;color:white;white-space:nowrap;">Classe F</label>
     <input type="radio" value="Classe F" name="classe_social" required>
-    <label for="Classe S" style="font-size:14px;text-decoration:none;text-shadow:9px;color:white;white-space:nowrap;">Classe S"</label>
+    <label for="Classe S" style="font-size:14px;text-decoration:none;text-shadow:9px;color:white;white-space:nowrap;">Classe S</label>
     <input type="radio" value="Classe S" name="classe_social" required>
 </div>
 </details></div></div>
@@ -220,7 +220,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     <option value="Leão">Leão</option>
     <option value="Sagitário">Sagitário</option>
     <option value="Escorpião">Escorpião</option>
-    <option value="Gemêmos">Gemêmos</option>
+    <option value="Gemêos">Gemêos</option>
     <option value="Virgem">Virgem</option>
     <option value="Peixes">Peixes</option>
     <option value="Touro">Touro</option>
