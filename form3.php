@@ -111,7 +111,7 @@ button{cursor: progress;width: 280px;margin: auto;border-radius: 10px 10px;paddi
     </select>
     <br>
     <label for="Data e Hora">Data e Hora</label>
-    <input type="dateetime-local" name="data_hora" id="Data e Hora" title="Digite a sua Data e Hora" placeholder="Exemplo: 22/05 ás 10 AM;" max="30" maxlength="30" required>
+    <input type="datetime-local" name="data_hora" id="Data e Hora" title="Digite a sua Data e Hora" placeholder="Exemplo: 22/05 ás 10 AM;" max="30" maxlength="30" required>
     <br>
     <br>
     <h2><big>Qual o seu nível de conhecimento?</big></h2>
